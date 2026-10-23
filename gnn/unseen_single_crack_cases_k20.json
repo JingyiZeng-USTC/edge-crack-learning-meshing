@@ -1,0 +1,86 @@
+[
+  {
+    "case_name": "unseen_left_low_short_neg31",
+    "edge": "left",
+    "origin": 0.42,
+    "length": 0.18,
+    "angle_deg": -31.0
+  },
+  {
+    "case_name": "unseen_left_mid_medium_pos11",
+    "edge": "left",
+    "origin": 1.07,
+    "length": 0.32,
+    "angle_deg": 11.0
+  },
+  {
+    "case_name": "unseen_left_upper_long_neg24",
+    "edge": "left",
+    "origin": 1.58,
+    "length": 0.43,
+    "angle_deg": -24.0
+  },
+  {
+    "case_name": "unseen_right_low_short_pos27",
+    "edge": "right",
+    "origin": 0.34,
+    "length": 0.21,
+    "angle_deg": 27.0
+  },
+  {
+    "case_name": "unseen_right_mid_medium_neg17",
+    "edge": "right",
+    "origin": 0.96,
+    "length": 0.35,
+    "angle_deg": -17.0
+  },
+  {
+    "case_name": "unseen_right_high_long_neg38",
+    "edge": "right",
+    "origin": 1.59,
+    "length": 0.46,
+    "angle_deg": -38.0
+  },
+  {
+    "case_name": "unseen_left_upper_short_pos18",
+    "edge": "left",
+    "origin": 1.50,
+    "length": 0.20,
+    "angle_deg": 18.0
+  },
+  {
+    "case_name": "unseen_right_upper_medium_neg22",
+    "edge": "right",
+    "origin": 1.52,
+    "length": 0.33,
+    "angle_deg": -22.0
+  },
+  {
+    "case_name": "unseen_left_upper_medium_neg36",
+    "edge": "left",
+    "origin": 1.56,
+    "length": 0.36,
+    "angle_deg": -36.0
+  },
+  {
+    "case_name": "unseen_bottom_left_short_neg29",
+    "edge": "bottom",
+    "origin": 0.21,
+    "length": 0.24,
+    "angle_deg": -29.0
+  },
+  {
+    "case_name": "unseen_bottom_mid_medium_pos16",
+    "edge": "bottom",
+    "origin": 0.54,
+    "length": 0.37,
+    "angle_deg": 16.0
+  },
+  {
+    "case_name": "unseen_bottom_right_medium_neg37",
+    "edge": "bottom",
+    "origin": 0.82,
+    "length": 0.31,
+    "angle_deg": -37.0
+  }
+]

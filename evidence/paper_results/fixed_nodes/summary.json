@@ -1,0 +1,39 @@
+{
+  "experiment": "fixed-nodes-gmsh-versus-gnn-connectivity",
+  "node_source": "Gmsh final Relocate2D-optimized nodes; exact same float32 coordinate array for both arms",
+  "geometry": "40 held-out one-segment straight edge cracks",
+  "crack_representation": "single-node embedded crack line; not a mechanically opened slit",
+  "gmsh_connectivity": "Distance/Threshold/Min field; 2D Frontal-Delaunay algorithm 6; Relocate2D before node freeze",
+  "gnn_connectivity": "trained GraphSAGE, kNN candidates, strict structured decoder; no node moves, no flips, no CDT fallback",
+  "gmsh_is_not_ground_truth": true,
+  "edge_overlap_f1_is_descriptive_only": true,
+  "candidate_k": 20,
+  "model": "D:\\itl\\eg\\3\\gnn\\artifacts\\single_straight_200_strict_model.pt",
+  "gmsh_version": "4.15.2",
+  "statistics": {
+    "requested_cases": 40,
+    "attempted_cases": 40,
+    "completed_cases": 40,
+    "gmsh": {
+      "valid_cases": 40,
+      "mean_case_min_angle_deg": 30.82522322923278,
+      "worst_case_min_angle_deg": 26.319656462684016,
+      "cases_min_angle_ge_20deg": 40,
+      "mean_fraction_triangles_below_20deg": 0.0
+    },
+    "gnn": {
+      "valid_cases": 40,
+      "mean_case_min_angle_deg": 30.36334641670924,
+      "worst_case_min_angle_deg": 22.76251604342702,
+      "cases_min_angle_ge_20deg": 40,
+      "mean_fraction_triangles_below_20deg": 0.0
+    },
+    "paired": {
+      "cases": 40,
+      "mean_gnn_minus_gmsh_min_angle_deg": -0.46187681252353646,
+      "gnn_higher_min_angle_cases": 0,
+      "mean_gmsh_edge_candidate_coverage": 1.0,
+      "mean_edge_overlap_f1_descriptive_only": 0.9999449224531588
+    }
+  }
+}

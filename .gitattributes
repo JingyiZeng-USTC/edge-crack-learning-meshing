@@ -1,0 +1,4 @@
+# Preserve archived bytes and their checksums across operating systems.
+* -text
+*.npz binary
+*.pt binary

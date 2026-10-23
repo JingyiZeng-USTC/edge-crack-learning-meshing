@@ -1,0 +1,131 @@
+{
+  "datasets/module30_single_straight_v1/meshes/crack_graph_000000.npz": {
+    "points": {
+      "shape": [
+        2217,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "triangles": {
+      "shape": [
+        4177,
+        3
+      ],
+      "dtype": "int64"
+    },
+    "features": {
+      "shape": [
+        2217,
+        22
+      ],
+      "dtype": "float32"
+    },
+    "analytic_h": {
+      "shape": [
+        2217
+      ],
+      "dtype": "float32"
+    },
+    "target_h": {
+      "shape": [
+        2217
+      ],
+      "dtype": "float32"
+    },
+    "target_log_ratio": {
+      "shape": [
+        2217
+      ],
+      "dtype": "float32"
+    },
+    "sample_weight": {
+      "shape": [
+        2217
+      ],
+      "dtype": "float32"
+    },
+    "element_size": {
+      "shape": [
+        4177
+      ],
+      "dtype": "float32"
+    },
+    "nodal_size_raw": {
+      "shape": [
+        2217
+      ],
+      "dtype": "float32"
+    },
+    "nodal_dual_area": {
+      "shape": [
+        2217
+      ],
+      "dtype": "float32"
+    },
+    "W": {
+      "shape": [],
+      "dtype": "float64"
+    },
+    "H": {
+      "shape": [],
+      "dtype": "float64"
+    },
+    "crack_polyline_points": {
+      "shape": [
+        2,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "crack_polyline_offsets": {
+      "shape": [
+        2
+      ],
+      "dtype": "int64"
+    },
+    "crack_graph_vertices": {
+      "shape": [
+        2,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "crack_graph_segments": {
+      "shape": [
+        1,
+        2
+      ],
+      "dtype": "int64"
+    },
+    "crack_tips": {
+      "shape": [
+        1,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "crack_entries": {
+      "shape": [
+        1,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "branch_points": {
+      "shape": [
+        0,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "crack_family": {
+      "shape": [],
+      "dtype": "<U8"
+    },
+    "edge_side": {
+      "shape": [],
+      "dtype": "<U4"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "format": "fixed-mesh-multiload-fcnn-sm-report-v1",
+  "reference_paper": {
+    "title": "FEM-constrained neural network-based surrogate model (FCNN-SM) for rapid structural response prediction",
+    "doi": "10.1016/j.ijsolstr.2025.113556",
+    "adapted_elements": [
+      "fixed mesh and fixed output DOFs",
+      "known load vector as network input",
+      "five dense layers",
+      "random unlabeled load samples",
+      "nodal force equilibrium residual loss",
+      "Adamax optimizer"
+    ]
+  },
+  "training_uses_displacement_or_stress_labels": false,
+  "random_load_samples": 2560,
+  "load_family": "uniform-amplitude",
+  "input_load_parameters": 1,
+  "loading_control": "top-line-load",
+  "reference_top_line_load_y_n_per_m": 500000.0,
+  "loaded_top_length_m": 1.0,
+  "reference_top_resultant_y_n": 500000.0,
+  "top_loaded_nodes": 40,
+  "top_prescribed_dofs": 0,
+  "output_free_dofs": 4699,
+  "low_mode_count": 16,
+  "warm_start_checkpoint": null,
+  "best_epoch": 1928,
+  "best_validation_scaled_residual": 0.01636812844981833,
+  "test_scaled_residual": 0.01454263290594328,
+  "test_global_balance_loss": 2.494706119498751e-05,
+  "training_seconds": 14.480215900000985,
+  "inference_seconds": 0.0003651999995781807,
+  "direct_reference_seconds": 0.011897499998667627,
+  "raw_paper_fcnn": {
+    "equilibrium_relative_l2": 0.02795208079727686,
+    "strain_energy": 153.1900820387732,
+    "maximum_displacement": 0.0009924910983030318,
+    "maximum_element_von_mises": 790842715.3654569,
+    "displacement_relative_l2": 0.010536605347716995,
+    "element_strain_relative_l2": 0.01800254856533357,
+    "element_stress_relative_l2": 0.017463572636854184,
+    "element_von_mises_relative_l2": 0.01640815919138802,
+    "strain_energy_relative_error": 0.02829230852987247
+  }
+}

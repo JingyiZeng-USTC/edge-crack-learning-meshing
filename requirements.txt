@@ -1,0 +1,11 @@
+# Keep the existing CUDA PyTorch installation; do not blindly replace it.
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+meshio>=5.3
+scikit-learn>=1.3
+torch>=2.1
+torch-geometric>=2.5
+# triangle is retained for compatibility/offline teacher tools only.
+# The final online GNN entry does not triangulate through this package.
+triangle>=20250106

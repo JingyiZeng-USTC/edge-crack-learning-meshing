@@ -1,0 +1,61 @@
+{
+  "reference_meshes": [
+    {
+      "nodes": 21705,
+      "geometric_nodes": 21516,
+      "triangles": 42489,
+      "strain_energy_j": 156.65559433919293,
+      "relative_residual": 2.0530767703234792e-12,
+      "mesh_seconds": 3.4499603000003844,
+      "fem_seconds": 1.0458662999999433,
+      "minimum_angle_deg": 27.43834027179555,
+      "angle_p05_deg": 48.55164293335916,
+      "quality_mean": 0.9934721267365753,
+      "quality_p05": 0.9578905358348492,
+      "duplicated_crack_nodes": 189,
+      "domain_area": 2.0
+    },
+    {
+      "nodes": 43727,
+      "geometric_nodes": 43458,
+      "triangles": 86142,
+      "strain_energy_j": 156.74111966161811,
+      "relative_residual": 3.611350279935894e-12,
+      "mesh_seconds": 5.865284000000429,
+      "fem_seconds": 2.289741700000377,
+      "minimum_angle_deg": 27.70598281335638,
+      "angle_p05_deg": 50.27613997982453,
+      "quality_mean": 0.9951536414120811,
+      "quality_p05": 0.9681886054955138,
+      "duplicated_crack_nodes": 269,
+      "domain_area": 2.0
+    }
+  ],
+  "reference_change_percent": 0.054564700449901735,
+  "reference_check_passed": true,
+  "reference_check_note": "Two-level energy stability check, not a rigorous reference error bound.",
+  "target_crossings": {
+    "traditional": {
+      "status": "bracketed",
+      "nodes": 1193.8181481308688,
+      "bracket_nodes": [
+        831,
+        1242
+      ]
+    },
+    "learned": {
+      "status": "bracketed",
+      "nodes": 1700.4744496054184,
+      "bracket_nodes": [
+        1498,
+        2218
+      ]
+    }
+  },
+  "node_saving_percent": -42.439989898613,
+  "target_error_percent": 1.0,
+  "node_definition": "Mechanical nodes after duplicating crack faces; geometric_nodes also in CSV.",
+  "claim_scope": "Comparison with the specified fixed-parameter local Gmsh sizing, not all Gmsh strategies.",
+  "gnn_used": false,
+  "fcnn_used": false
+}

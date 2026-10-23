@@ -1,0 +1,4322 @@
+[
+  {
+    "name": "crack_graph_000000",
+    "generation": {
+      "gmsh_size_scale": 1.156066932867723,
+      "reference_node_count": 2217,
+      "gmsh_reference_node_count_difference": 0.011276499774470004,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2963,
+          "relative_difference": 0.33649075327018496
+        },
+        {
+          "size_scale": 1.156066932867723,
+          "nodes": 2242,
+          "relative_difference": 0.011276499774470004
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4304,
+        "min_angle_deg": 28.79136363154384,
+        "angle_p05_deg": 45.77823680684932,
+        "angle_median_deg": 59.875790210940565,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 111.54219265596538,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.989677144705032,
+        "quality_p05": 0.9389478487535138,
+        "quality_min": 0.674183008570895,
+        "area_cv": 0.30165360375216593,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 210,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4304,
+        "min_angle_deg": 28.79136363154384,
+        "angle_p05_deg": 45.77823680684932,
+        "angle_median_deg": 59.875790210940565,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 111.54219265596538,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9896771447050318,
+        "quality_p05": 0.9389478487535138,
+        "quality_min": 0.674183008570895,
+        "area_cv": 0.301653603752166,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 210,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 210,
+      "predicted_edges": 24602,
+      "kept_predicted_edges": 6335,
+      "rejected_crossing_edges": 15329,
+      "rejected_pass_through_edges": 2728,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4304,
+      "triangular_faces": 4304,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 28.79136363154384,
+      "structured_min_angle_after_deg": 28.79136363154384,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 6545,
+      "selected_learned_edges": 6335,
+      "threshold_positive_edges": 6797,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000001",
+    "generation": {
+      "gmsh_size_scale": 1.1541821542730462,
+      "reference_node_count": 2228,
+      "gmsh_reference_node_count_difference": 0.011220825852782765,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2968,
+          "relative_difference": 0.33213644524236985
+        },
+        {
+          "size_scale": 1.1541821542730462,
+          "nodes": 2253,
+          "relative_difference": 0.011220825852782765
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4325,
+        "min_angle_deg": 30.30439320828916,
+        "angle_p05_deg": 45.874867017030795,
+        "angle_median_deg": 59.79045775121175,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 113.31747882717863,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9897354453279846,
+        "quality_p05": 0.9388630022653259,
+        "quality_min": 0.656722746097413,
+        "area_cv": 0.3063598854351112,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 213,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4325,
+        "min_angle_deg": 30.30439320828916,
+        "angle_p05_deg": 45.874867017030795,
+        "angle_median_deg": 59.79045775121175,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 113.31747882717863,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9897354453279846,
+        "quality_p05": 0.9388630022653259,
+        "quality_min": 0.656722746097413,
+        "area_cv": 0.3063598854351112,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 213,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 213,
+      "predicted_edges": 24640,
+      "kept_predicted_edges": 6364,
+      "rejected_crossing_edges": 15628,
+      "rejected_pass_through_edges": 2435,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4325,
+      "triangular_faces": 4325,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 30.30439320828916,
+      "structured_min_angle_after_deg": 30.30439320828916,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 6577,
+      "selected_learned_edges": 6364,
+      "threshold_positive_edges": 6669,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000011",
+    "generation": {
+      "gmsh_size_scale": 1.1873552163579397,
+      "reference_node_count": 2079,
+      "gmsh_reference_node_count_difference": 0.011544011544011544,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2931,
+          "relative_difference": 0.4098124098124098
+        },
+        {
+          "size_scale": 1.1873552163579397,
+          "nodes": 2103,
+          "relative_difference": 0.011544011544011544
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4027,
+        "min_angle_deg": 31.559344520434554,
+        "angle_p05_deg": 46.65717907002949,
+        "angle_median_deg": 59.9001225540529,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 106.7886830750794,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.99040800047446,
+        "quality_p05": 0.9448768344002152,
+        "quality_min": 0.7159466638898616,
+        "area_cv": 0.2756362090553699,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 201,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4027,
+        "min_angle_deg": 31.559344520434554,
+        "angle_p05_deg": 46.64489262922961,
+        "angle_median_deg": 59.90012255405289,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 106.7886830750794,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.990350199465801,
+        "quality_p05": 0.9447649310726691,
+        "quality_min": 0.7159466638898616,
+        "area_cv": 0.2756360886950201,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 201,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 201,
+      "predicted_edges": 22955,
+      "kept_predicted_edges": 5928,
+      "rejected_crossing_edges": 14227,
+      "rejected_pass_through_edges": 2599,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4027,
+      "triangular_faces": 4027,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 31.559344520434554,
+      "structured_min_angle_after_deg": 31.559344520434554,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 6129,
+      "selected_learned_edges": 5928,
+      "threshold_positive_edges": 6477,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000013",
+    "generation": {
+      "gmsh_size_scale": 1.195961473839661,
+      "reference_node_count": 2038,
+      "gmsh_reference_node_count_difference": 0.013738959764474975,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2915,
+          "relative_difference": 0.43032384690873404
+        },
+        {
+          "size_scale": 1.195961473839661,
+          "nodes": 2066,
+          "relative_difference": 0.013738959764474975
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3957,
+        "min_angle_deg": 29.113723132551243,
+        "angle_p05_deg": 46.45542194523713,
+        "angle_median_deg": 59.90436767892888,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 95.74426992060751,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9908303746520578,
+        "quality_p05": 0.9409546103214281,
+        "quality_min": 0.7385779571156688,
+        "area_cv": 0.2721703488444404,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 194,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3957,
+        "min_angle_deg": 29.113723132551243,
+        "angle_p05_deg": 46.45542194523713,
+        "angle_median_deg": 59.90436767892888,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 95.74426992060751,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9908303746520578,
+        "quality_p05": 0.9409546103214281,
+        "quality_min": 0.7385779571156688,
+        "area_cv": 0.2721703488444404,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 194,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 194,
+      "predicted_edges": 22640,
+      "kept_predicted_edges": 5828,
+      "rejected_crossing_edges": 14010,
+      "rejected_pass_through_edges": 2608,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 3957,
+      "triangular_faces": 3957,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 29.113723132551243,
+      "structured_min_angle_after_deg": 29.113723132551243,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 6022,
+      "selected_learned_edges": 5828,
+      "threshold_positive_edges": 6114,
+      "selected_below_threshold_edges": 1,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000025",
+    "generation": {
+      "gmsh_size_scale": 1.1208163256664307,
+      "reference_node_count": 2408,
+      "gmsh_reference_node_count_difference": 0.009551495016611296,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 3025,
+          "relative_difference": 0.2562292358803987
+        },
+        {
+          "size_scale": 1.1208163256664307,
+          "nodes": 2431,
+          "relative_difference": 0.009551495016611296
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4676,
+        "min_angle_deg": 31.690115576929163,
+        "angle_p05_deg": 45.530704305771536,
+        "angle_median_deg": 59.80316784027302,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 113.87076655874282,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9895422736621375,
+        "quality_p05": 0.9352361544526838,
+        "quality_min": 0.6571849847505458,
+        "area_cv": 0.3321240847367109,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 228,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4676,
+        "min_angle_deg": 31.690115576929163,
+        "angle_p05_deg": 45.530704305771536,
+        "angle_median_deg": 59.80316784027302,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 113.87076655874282,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9895422736621375,
+        "quality_p05": 0.9352361544526838,
+        "quality_min": 0.6571849847505458,
+        "area_cv": 0.3321240847367109,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 228,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 228,
+      "predicted_edges": 26579,
+      "kept_predicted_edges": 6878,
+      "rejected_crossing_edges": 16656,
+      "rejected_pass_through_edges": 2817,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4676,
+      "triangular_faces": 4676,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 31.690115576929163,
+      "structured_min_angle_after_deg": 31.690115576929163,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 7106,
+      "selected_learned_edges": 6878,
+      "threshold_positive_edges": 7155,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000030",
+    "generation": {
+      "gmsh_size_scale": 1.0783725595419662,
+      "reference_node_count": 2646,
+      "gmsh_reference_node_count_difference": 0.0049130763416477706,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 3077,
+          "relative_difference": 0.16288737717309146
+        },
+        {
+          "size_scale": 1.0783725595419662,
+          "nodes": 2659,
+          "relative_difference": 0.0049130763416477706
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 5125,
+        "min_angle_deg": 29.93845772917443,
+        "angle_p05_deg": 45.21771112162579,
+        "angle_median_deg": 59.740666063585024,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 108.06068257252517,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9886699041547814,
+        "quality_p05": 0.9326914452929443,
+        "quality_min": 0.7057815059206665,
+        "area_cv": 0.35459525600113107,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 247,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 5125,
+        "min_angle_deg": 29.93845772917443,
+        "angle_p05_deg": 45.21210733069662,
+        "angle_median_deg": 59.740666063585024,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 108.06068257252517,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9885997747121806,
+        "quality_p05": 0.9326156653307491,
+        "quality_min": 0.7015423553344312,
+        "area_cv": 0.3545952544760127,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 247,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 247,
+      "predicted_edges": 29110,
+      "kept_predicted_edges": 7536,
+      "rejected_crossing_edges": 18438,
+      "rejected_pass_through_edges": 2889,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 5125,
+      "triangular_faces": 5125,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 29.93845772917443,
+      "structured_min_angle_after_deg": 29.93845772917443,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 7783,
+      "selected_learned_edges": 7536,
+      "threshold_positive_edges": 7827,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000035",
+    "generation": {
+      "gmsh_size_scale": 1.130065083861659,
+      "reference_node_count": 2357,
+      "gmsh_reference_node_count_difference": 0.009333899024183284,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 3010,
+          "relative_difference": 0.27704709376325837
+        },
+        {
+          "size_scale": 1.130065083861659,
+          "nodes": 2379,
+          "relative_difference": 0.009333899024183284
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4573,
+        "min_angle_deg": 31.67692248547652,
+        "angle_p05_deg": 45.9078789358151,
+        "angle_median_deg": 59.772439780972455,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 108.90553643717018,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9894903983668888,
+        "quality_p05": 0.937635324186514,
+        "quality_min": 0.7016081382418107,
+        "area_cv": 0.32202901588864447,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 223,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4573,
+        "min_angle_deg": 28.20094143324154,
+        "angle_p05_deg": 45.8792730965727,
+        "angle_median_deg": 59.772439780972455,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 109.9318592076606,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.989382064317135,
+        "quality_p05": 0.9375177740478879,
+        "quality_min": 0.6615685724898175,
+        "area_cv": 0.32202897294697364,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 223,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 223,
+      "predicted_edges": 26012,
+      "kept_predicted_edges": 6728,
+      "rejected_crossing_edges": 16448,
+      "rejected_pass_through_edges": 2613,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4573,
+      "triangular_faces": 4573,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 28.20094143324154,
+      "structured_min_angle_after_deg": 28.20094143324154,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 6951,
+      "selected_learned_edges": 6728,
+      "threshold_positive_edges": 7000,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000041",
+    "generation": {
+      "gmsh_size_scale": 1.139586005330765,
+      "reference_node_count": 2307,
+      "gmsh_reference_node_count_difference": 0.009102730819245773,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2996,
+          "relative_difference": 0.2986562635457304
+        },
+        {
+          "size_scale": 1.139586005330765,
+          "nodes": 2328,
+          "relative_difference": 0.009102730819245773
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4471,
+        "min_angle_deg": 26.319656462684016,
+        "angle_p05_deg": 45.82560988867895,
+        "angle_median_deg": 59.82859263358097,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 109.98759051586352,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9892311534144232,
+        "quality_p05": 0.9387344370270673,
+        "quality_min": 0.640413930274539,
+        "area_cv": 0.3055069180008486,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 220,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4471,
+        "min_angle_deg": 22.76251604342702,
+        "angle_p05_deg": 45.82560988867895,
+        "angle_median_deg": 59.82859263358097,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 119.07432366151755,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9892092519075121,
+        "quality_p05": 0.9387344370270673,
+        "quality_min": 0.5587766622109933,
+        "area_cv": 0.3055070462328982,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 220,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 220,
+      "predicted_edges": 25468,
+      "kept_predicted_edges": 6578,
+      "rejected_crossing_edges": 15872,
+      "rejected_pass_through_edges": 2798,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4471,
+      "triangular_faces": 4471,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 22.76251604342702,
+      "structured_min_angle_after_deg": 22.76251604342702,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 6798,
+      "selected_learned_edges": 6578,
+      "threshold_positive_edges": 7168,
+      "selected_below_threshold_edges": 1,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000047",
+    "generation": {
+      "gmsh_size_scale": 1.2154167399136824,
+      "reference_node_count": 1955,
+      "gmsh_reference_node_count_difference": 0.015345268542199489,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2888,
+          "relative_difference": 0.47723785166240407
+        },
+        {
+          "size_scale": 1.2154167399136824,
+          "nodes": 1985,
+          "relative_difference": 0.015345268542199489
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3797,
+        "min_angle_deg": 32.58237941253941,
+        "angle_p05_deg": 46.646823483171154,
+        "angle_median_deg": 59.837546285438364,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 112.01208834886384,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9910130960861336,
+        "quality_p05": 0.9473848743972498,
+        "quality_min": 0.6746601631546298,
+        "area_cv": 0.2545478875342797,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 188,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3797,
+        "min_angle_deg": 32.58237941253941,
+        "angle_p05_deg": 46.646823483171154,
+        "angle_median_deg": 59.837546285438364,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 112.01208834886384,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9910130960861336,
+        "quality_p05": 0.9473848743972498,
+        "quality_min": 0.6746601631546298,
+        "area_cv": 0.25454788753427976,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 188,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 188,
+      "predicted_edges": 21616,
+      "kept_predicted_edges": 5593,
+      "rejected_crossing_edges": 13646,
+      "rejected_pass_through_edges": 2189,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 3797,
+      "triangular_faces": 3797,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 32.58237941253941,
+      "structured_min_angle_after_deg": 32.58237941253941,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 5781,
+      "selected_learned_edges": 5593,
+      "threshold_positive_edges": 6053,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000048",
+    "generation": {
+      "gmsh_size_scale": 1.177944413382222,
+      "reference_node_count": 2121,
+      "gmsh_reference_node_count_difference": 0.010372465818010372,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2943,
+          "relative_difference": 0.38755304101838756
+        },
+        {
+          "size_scale": 1.177944413382222,
+          "nodes": 2143,
+          "relative_difference": 0.010372465818010372
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4107,
+        "min_angle_deg": 33.031053778975284,
+        "angle_p05_deg": 46.389865212860535,
+        "angle_median_deg": 59.88908947255693,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 98.87133853370881,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9910707174580313,
+        "quality_p05": 0.9432535534262233,
+        "quality_min": 0.7815948587046131,
+        "area_cv": 0.28759547100920024,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 203,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4107,
+        "min_angle_deg": 33.031053778975284,
+        "angle_p05_deg": 46.368001468087115,
+        "angle_median_deg": 59.88908947255693,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 107.69716196417257,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9909618312108958,
+        "quality_p05": 0.9430518310738748,
+        "quality_min": 0.7157065807115399,
+        "area_cv": 0.28759547821427045,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 203,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 203,
+      "predicted_edges": 23449,
+      "kept_predicted_edges": 6046,
+      "rejected_crossing_edges": 14568,
+      "rejected_pass_through_edges": 2632,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4107,
+      "triangular_faces": 4107,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 33.031053778975284,
+      "structured_min_angle_after_deg": 33.031053778975284,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 6249,
+      "selected_learned_edges": 6046,
+      "threshold_positive_edges": 6284,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000051",
+    "generation": {
+      "gmsh_size_scale": 1.1780996688042233,
+      "reference_node_count": 2119,
+      "gmsh_reference_node_count_difference": 0.012269938650306749,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2941,
+          "relative_difference": 0.38791882963662105
+        },
+        {
+          "size_scale": 1.1780996688042233,
+          "nodes": 2145,
+          "relative_difference": 0.012269938650306749
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4112,
+        "min_angle_deg": 33.93458389417282,
+        "angle_p05_deg": 46.57182451979004,
+        "angle_median_deg": 59.915439173981795,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 105.9760718969027,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9907899160017354,
+        "quality_p05": 0.9452803496880641,
+        "quality_min": 0.7268846965094469,
+        "area_cv": 0.286543717790114,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 201,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4112,
+        "min_angle_deg": 30.19113662879685,
+        "angle_p05_deg": 46.553841635840634,
+        "angle_median_deg": 59.915439173981795,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 110.9878563792874,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9906946186434792,
+        "quality_p05": 0.945036029143513,
+        "quality_min": 0.671863953903353,
+        "area_cv": 0.28654374659646087,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 201,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 201,
+      "predicted_edges": 23429,
+      "kept_predicted_edges": 6055,
+      "rejected_crossing_edges": 14474,
+      "rejected_pass_through_edges": 2699,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4112,
+      "triangular_faces": 4112,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 30.19113662879685,
+      "structured_min_angle_after_deg": 30.19113662879685,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 6256,
+      "selected_learned_edges": 6055,
+      "threshold_positive_edges": 6319,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000059",
+    "generation": {
+      "gmsh_size_scale": 1.194406863888794,
+      "reference_node_count": 2037,
+      "gmsh_reference_node_count_difference": 0.010800196367206676,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2906,
+          "relative_difference": 0.4266077565046637
+        },
+        {
+          "size_scale": 1.194406863888794,
+          "nodes": 2059,
+          "relative_difference": 0.010800196367206676
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3943,
+        "min_angle_deg": 30.194746300346864,
+        "angle_p05_deg": 46.78778907268463,
+        "angle_median_deg": 59.85241722021797,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 100.97478748593919,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9913308235897674,
+        "quality_p05": 0.9471242487404983,
+        "quality_min": 0.7652028169978974,
+        "area_cv": 0.26943573374415186,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 194,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3943,
+        "min_angle_deg": 30.194746300346864,
+        "angle_p05_deg": 46.78778907268463,
+        "angle_median_deg": 59.85241722021797,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 117.14151515339357,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9912330488814406,
+        "quality_p05": 0.9471242487404983,
+        "quality_min": 0.6275248872848455,
+        "area_cv": 0.26943576932970786,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 194,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 194,
+      "predicted_edges": 22501,
+      "kept_predicted_edges": 5807,
+      "rejected_crossing_edges": 14004,
+      "rejected_pass_through_edges": 2496,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 3943,
+      "triangular_faces": 3943,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 30.194746300346864,
+      "structured_min_angle_after_deg": 30.194746300346864,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 6001,
+      "selected_learned_edges": 5807,
+      "threshold_positive_edges": 6092,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000060",
+    "generation": {
+      "gmsh_size_scale": 1.247485248791859,
+      "reference_node_count": 1841,
+      "gmsh_reference_node_count_difference": 0.015209125475285171,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2865,
+          "relative_difference": 0.5562194459532862
+        },
+        {
+          "size_scale": 1.247485248791859,
+          "nodes": 1869,
+          "relative_difference": 0.015209125475285171
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3570,
+        "min_angle_deg": 32.65249959376469,
+        "angle_p05_deg": 47.16134223780827,
+        "angle_median_deg": 59.91201694012024,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 95.07424155644233,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9921923836592789,
+        "quality_p05": 0.9498032245205198,
+        "quality_min": 0.7983979158572815,
+        "area_cv": 0.2429436884952711,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 178,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3570,
+        "min_angle_deg": 28.83713722443662,
+        "angle_p05_deg": 47.09970473919663,
+        "angle_median_deg": 59.91201694012024,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 120.27576827890888,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9920363463110242,
+        "quality_p05": 0.9489804715157741,
+        "quality_min": 0.5964052608219536,
+        "area_cv": 0.24294376238629972,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 178,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 178,
+      "predicted_edges": 20488,
+      "kept_predicted_edges": 5260,
+      "rejected_crossing_edges": 12784,
+      "rejected_pass_through_edges": 2266,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 3570,
+      "triangular_faces": 3570,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 28.83713722443662,
+      "structured_min_angle_after_deg": 28.83713722443662,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 5438,
+      "selected_learned_edges": 5260,
+      "threshold_positive_edges": 5485,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000061",
+    "generation": {
+      "gmsh_size_scale": 1.164414904132336,
+      "reference_node_count": 2175,
+      "gmsh_reference_node_count_difference": 0.008735632183908045,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2949,
+          "relative_difference": 0.35586206896551725
+        },
+        {
+          "size_scale": 1.164414904132336,
+          "nodes": 2194,
+          "relative_difference": 0.008735632183908045
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4208,
+        "min_angle_deg": 29.861387530884105,
+        "angle_p05_deg": 45.786347169298345,
+        "angle_median_deg": 59.85930221135879,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 111.19051262600686,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9900973472458792,
+        "quality_p05": 0.9386135621438274,
+        "quality_min": 0.680394843171729,
+        "area_cv": 0.290403691124699,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 207,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4208,
+        "min_angle_deg": 29.861387530884105,
+        "angle_p05_deg": 45.786347169298345,
+        "angle_median_deg": 59.85930221135879,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 111.19051262600686,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9900973472458792,
+        "quality_p05": 0.9386135621438274,
+        "quality_min": 0.680394843171729,
+        "area_cv": 0.290403691124699,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 207,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 207,
+      "predicted_edges": 23940,
+      "kept_predicted_edges": 6194,
+      "rejected_crossing_edges": 14900,
+      "rejected_pass_through_edges": 2639,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4208,
+      "triangular_faces": 4208,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 29.861387530884105,
+      "structured_min_angle_after_deg": 29.861387530884105,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 6401,
+      "selected_learned_edges": 6194,
+      "threshold_positive_edges": 6458,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000066",
+    "generation": {
+      "gmsh_size_scale": 1.2437954120461399,
+      "reference_node_count": 1850,
+      "gmsh_reference_node_count_difference": 0.017297297297297298,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2862,
+          "relative_difference": 0.547027027027027
+        },
+        {
+          "size_scale": 1.2437954120461399,
+          "nodes": 1882,
+          "relative_difference": 0.017297297297297298
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 1.1102230246251565e-16,
+      "quality": {
+        "triangles": 3595,
+        "min_angle_deg": 30.703516871854053,
+        "angle_p05_deg": 47.00293049410584,
+        "angle_median_deg": 59.93744220061673,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 104.21670216941811,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.991516951633717,
+        "quality_p05": 0.9491254601028831,
+        "quality_min": 0.71341625728473,
+        "area_cv": 0.24453644332053914,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 179,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3595,
+        "min_angle_deg": 30.703516871854053,
+        "angle_p05_deg": 46.885568951815635,
+        "angle_median_deg": 59.93744220061673,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 109.35277648473702,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9913979095934836,
+        "quality_p05": 0.9490128082932975,
+        "quality_min": 0.700935992984159,
+        "area_cv": 0.24453646035424803,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 179,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 179,
+      "predicted_edges": 20644,
+      "kept_predicted_edges": 5297,
+      "rejected_crossing_edges": 12790,
+      "rejected_pass_through_edges": 2378,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 3595,
+      "triangular_faces": 3595,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 30.703516871854053,
+      "structured_min_angle_after_deg": 30.703516871854053,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 5476,
+      "selected_learned_edges": 5297,
+      "threshold_positive_edges": 5548,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000068",
+    "generation": {
+      "gmsh_size_scale": 1.2039632877334117,
+      "reference_node_count": 2011,
+      "gmsh_reference_node_count_difference": 0.0139234211834908,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2915,
+          "relative_difference": 0.44952759820984584
+        },
+        {
+          "size_scale": 1.2039632877334117,
+          "nodes": 2039,
+          "relative_difference": 0.0139234211834908
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 1.1102230246251565e-16,
+      "quality": {
+        "triangles": 3904,
+        "min_angle_deg": 31.882450952987185,
+        "angle_p05_deg": 46.666145387094595,
+        "angle_median_deg": 59.892988062862145,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 100.44756215844549,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9913224446476426,
+        "quality_p05": 0.9451779664904247,
+        "quality_min": 0.7453378421464564,
+        "area_cv": 0.27200401572815197,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 193,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3904,
+        "min_angle_deg": 31.882450952987185,
+        "angle_p05_deg": 46.63798445122248,
+        "angle_median_deg": 59.89298806286216,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 105.67898146448414,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9912551472097841,
+        "quality_p05": 0.9449568273489457,
+        "quality_min": 0.7220534025519724,
+        "area_cv": 0.27200332746371636,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 193,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 193,
+      "predicted_edges": 22308,
+      "kept_predicted_edges": 5749,
+      "rejected_crossing_edges": 13921,
+      "rejected_pass_through_edges": 2445,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 3904,
+      "triangular_faces": 3904,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 31.882450952987185,
+      "structured_min_angle_after_deg": 31.882450952987185,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 5942,
+      "selected_learned_edges": 5749,
+      "threshold_positive_edges": 6049,
+      "selected_below_threshold_edges": 1,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000075",
+    "generation": {
+      "gmsh_size_scale": 1.079159718517317,
+      "reference_node_count": 2643,
+      "gmsh_reference_node_count_difference": 0.004918653045781309,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 3078,
+          "relative_difference": 0.16458569807037457
+        },
+        {
+          "size_scale": 1.079159718517317,
+          "nodes": 2656,
+          "relative_difference": 0.004918653045781309
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 5120,
+        "min_angle_deg": 30.390517353756515,
+        "angle_p05_deg": 45.079478170362115,
+        "angle_median_deg": 59.66835878315907,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 110.7717068000029,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9884286411620085,
+        "quality_p05": 0.9305688962588372,
+        "quality_min": 0.6877081167402209,
+        "area_cv": 0.3548843417831433,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 247,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 1.1102230246251565e-16,
+      "quality": {
+        "triangles": 5120,
+        "min_angle_deg": 30.390517353756515,
+        "angle_p05_deg": 45.079478170362115,
+        "angle_median_deg": 59.66835878315907,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 110.7717068000029,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9884286411620089,
+        "quality_p05": 0.9305688962588372,
+        "quality_min": 0.6877081167402209,
+        "area_cv": 0.3548843417831434,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 247,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 247,
+      "predicted_edges": 29048,
+      "kept_predicted_edges": 7528,
+      "rejected_crossing_edges": 18451,
+      "rejected_pass_through_edges": 2822,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 5120,
+      "triangular_faces": 5120,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 30.390517353756515,
+      "structured_min_angle_after_deg": 30.390517353756515,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 7775,
+      "selected_learned_edges": 7528,
+      "threshold_positive_edges": 7849,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 1.9999999999999998,
+      "domain_area": 2.0,
+      "relative_area_error": 1.1102230246251565e-16
+    }
+  },
+  {
+    "name": "crack_graph_000076",
+    "generation": {
+      "gmsh_size_scale": 1.229552209791025,
+      "reference_node_count": 1907,
+      "gmsh_reference_node_count_difference": 0.02045097011012061,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2883,
+          "relative_difference": 0.5117986366019927
+        },
+        {
+          "size_scale": 1.229552209791025,
+          "nodes": 1946,
+          "relative_difference": 0.02045097011012061
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3719,
+        "min_angle_deg": 32.80412069077998,
+        "angle_p05_deg": 46.7031183345579,
+        "angle_median_deg": 59.902878830305376,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 99.6364742003233,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9913082387696612,
+        "quality_p05": 0.9444179303949186,
+        "quality_min": 0.760147966714674,
+        "area_cv": 0.2581163788809288,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 186,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3719,
+        "min_angle_deg": 32.80412069077998,
+        "angle_p05_deg": 46.7031183345579,
+        "angle_median_deg": 59.902878830305376,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 99.6364742003233,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9913082387696613,
+        "quality_p05": 0.9444179303949186,
+        "quality_min": 0.760147966714674,
+        "area_cv": 0.2581163788809288,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 186,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 186,
+      "predicted_edges": 21274,
+      "kept_predicted_edges": 5478,
+      "rejected_crossing_edges": 13172,
+      "rejected_pass_through_edges": 2438,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 3719,
+      "triangular_faces": 3719,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 32.80412069077998,
+      "structured_min_angle_after_deg": 32.80412069077998,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 5664,
+      "selected_learned_edges": 5478,
+      "threshold_positive_edges": 5795,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000084",
+    "generation": {
+      "gmsh_size_scale": 1.1016368814703654,
+      "reference_node_count": 2514,
+      "gmsh_reference_node_count_difference": 0.004375497215592681,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 3051,
+          "relative_difference": 0.21360381861575178
+        },
+        {
+          "size_scale": 1.1016368814703654,
+          "nodes": 2525,
+          "relative_difference": 0.004375497215592681
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4860,
+        "min_angle_deg": 30.44529334830367,
+        "angle_p05_deg": 45.09896717487117,
+        "angle_median_deg": 59.81695606207119,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 108.28195913247272,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9887957957821155,
+        "quality_p05": 0.9326339550468215,
+        "quality_min": 0.6899569191616248,
+        "area_cv": 0.33879116790724517,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 236,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4860,
+        "min_angle_deg": 30.44529334830367,
+        "angle_p05_deg": 45.09896717487117,
+        "angle_median_deg": 59.81695606207119,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 108.28195913247272,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9887957957821156,
+        "quality_p05": 0.9326339550468215,
+        "quality_min": 0.6899569191616248,
+        "area_cv": 0.3387911679072453,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 236,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 236,
+      "predicted_edges": 27629,
+      "kept_predicted_edges": 7148,
+      "rejected_crossing_edges": 17350,
+      "rejected_pass_through_edges": 2895,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4860,
+      "triangular_faces": 4860,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 30.44529334830367,
+      "structured_min_angle_after_deg": 30.44529334830367,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 7384,
+      "selected_learned_edges": 7148,
+      "threshold_positive_edges": 7433,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000097",
+    "generation": {
+      "gmsh_size_scale": 1.09684257267044,
+      "reference_node_count": 2546,
+      "gmsh_reference_node_count_difference": 0.001178318931657502,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 3063,
+          "relative_difference": 0.2030636292223095
+        },
+        {
+          "size_scale": 1.09684257267044,
+          "nodes": 2549,
+          "relative_difference": 0.001178318931657502
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4902,
+        "min_angle_deg": 29.26938883542252,
+        "angle_p05_deg": 45.92279376111317,
+        "angle_median_deg": 59.94900773174422,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 113.79346802012222,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9892240199739414,
+        "quality_p05": 0.9373075082487442,
+        "quality_min": 0.6526822253916339,
+        "area_cv": 0.3386883342855869,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 248,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4902,
+        "min_angle_deg": 29.26938883542252,
+        "angle_p05_deg": 45.92279376111318,
+        "angle_median_deg": 59.94900773174423,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 113.79346802012222,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9892240199739414,
+        "quality_p05": 0.9373075082487442,
+        "quality_min": 0.6526822253916339,
+        "area_cv": 0.3386883342855869,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 248,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 248,
+      "predicted_edges": 27692,
+      "kept_predicted_edges": 7202,
+      "rejected_crossing_edges": 16794,
+      "rejected_pass_through_edges": 3448,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4902,
+      "triangular_faces": 4902,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 29.26938883542252,
+      "structured_min_angle_after_deg": 29.26938883542252,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 7450,
+      "selected_learned_edges": 7202,
+      "threshold_positive_edges": 7695,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000104",
+    "generation": {
+      "gmsh_size_scale": 1.116648281972309,
+      "reference_node_count": 2422,
+      "gmsh_reference_node_count_difference": 0.0053674649050371595,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 3020,
+          "relative_difference": 0.24690338563170933
+        },
+        {
+          "size_scale": 1.116648281972309,
+          "nodes": 2435,
+          "relative_difference": 0.0053674649050371595
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4680,
+        "min_angle_deg": 31.73837643695074,
+        "angle_p05_deg": 45.356531318029674,
+        "angle_median_deg": 59.957662321413416,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 103.87882047211798,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9895497623150937,
+        "quality_p05": 0.9360131273013043,
+        "quality_min": 0.7362772873209775,
+        "area_cv": 0.3256682661299421,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 232,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4680,
+        "min_angle_deg": 31.73837643695074,
+        "angle_p05_deg": 45.356531318029674,
+        "angle_median_deg": 59.95766232141342,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 103.87882047211798,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9895497623150937,
+        "quality_p05": 0.9360131273013043,
+        "quality_min": 0.7362772873209775,
+        "area_cv": 0.3256682661299421,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 232,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 232,
+      "predicted_edges": 26463,
+      "kept_predicted_edges": 6882,
+      "rejected_crossing_edges": 16027,
+      "rejected_pass_through_edges": 3322,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4680,
+      "triangular_faces": 4680,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 31.73837643695074,
+      "structured_min_angle_after_deg": 31.73837643695074,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 7114,
+      "selected_learned_edges": 6882,
+      "threshold_positive_edges": 7159,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000109",
+    "generation": {
+      "gmsh_size_scale": 1.155743628509188,
+      "reference_node_count": 2213,
+      "gmsh_reference_node_count_difference": 0.012200632625395391,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2956,
+          "relative_difference": 0.3357433348395843
+        },
+        {
+          "size_scale": 1.155743628509188,
+          "nodes": 2240,
+          "relative_difference": 0.012200632625395391
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4299,
+        "min_angle_deg": 29.919136708602114,
+        "angle_p05_deg": 46.46589307497924,
+        "angle_median_deg": 59.94759457014088,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 102.30844164620636,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9903067411967993,
+        "quality_p05": 0.9442561867999422,
+        "quality_min": 0.7277857222949082,
+        "area_cv": 0.2995659723495706,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 211,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 1.1102230246251565e-16,
+      "quality": {
+        "triangles": 4299,
+        "min_angle_deg": 29.919136708602114,
+        "angle_p05_deg": 46.46589307497924,
+        "angle_median_deg": 59.94759457014088,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 102.30844164620638,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9903067411967995,
+        "quality_p05": 0.9442561867999422,
+        "quality_min": 0.7277857222949082,
+        "area_cv": 0.2995659723495706,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 211,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 211,
+      "predicted_edges": 24402,
+      "kept_predicted_edges": 6327,
+      "rejected_crossing_edges": 14919,
+      "rejected_pass_through_edges": 2945,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4299,
+      "triangular_faces": 4299,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 29.919136708602114,
+      "structured_min_angle_after_deg": 29.919136708602114,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 6538,
+      "selected_learned_edges": 6327,
+      "threshold_positive_edges": 6832,
+      "selected_below_threshold_edges": 2,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 1.9999999999999998,
+      "domain_area": 2.0,
+      "relative_area_error": 1.1102230246251565e-16
+    }
+  },
+  {
+    "name": "crack_graph_000120",
+    "generation": {
+      "gmsh_size_scale": 1.0888999888434134,
+      "reference_node_count": 2574,
+      "gmsh_reference_node_count_difference": 0.009712509712509712,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 3052,
+          "relative_difference": 0.1857031857031857
+        },
+        {
+          "size_scale": 1.0888999888434134,
+          "nodes": 2599,
+          "relative_difference": 0.009712509712509712
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 5005,
+        "min_angle_deg": 29.568489097516522,
+        "angle_p05_deg": 45.399811376243385,
+        "angle_median_deg": 59.72044271359699,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 113.57344816497816,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.988342581702428,
+        "quality_p05": 0.9310332667765983,
+        "quality_min": 0.6569355940312112,
+        "area_cv": 0.34588987810201377,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 244,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 5005,
+        "min_angle_deg": 29.568489097516522,
+        "angle_p05_deg": 45.399811376243385,
+        "angle_median_deg": 59.72044271359699,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 113.57344816497817,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9883425817024282,
+        "quality_p05": 0.9310332667765983,
+        "quality_min": 0.6569355940312112,
+        "area_cv": 0.34588987810201377,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 244,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 244,
+      "predicted_edges": 28414,
+      "kept_predicted_edges": 7359,
+      "rejected_crossing_edges": 17969,
+      "rejected_pass_through_edges": 2842,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 5005,
+      "triangular_faces": 5005,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 29.568489097516522,
+      "structured_min_angle_after_deg": 29.568489097516522,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 7603,
+      "selected_learned_edges": 7359,
+      "threshold_positive_edges": 7865,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000121",
+    "generation": {
+      "gmsh_size_scale": 1.1157874192391688,
+      "reference_node_count": 2441,
+      "gmsh_reference_node_count_difference": 0.007374027038099139,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 3039,
+          "relative_difference": 0.24498156493240475
+        },
+        {
+          "size_scale": 1.1157874192391688,
+          "nodes": 2459,
+          "relative_difference": 0.007374027038099139
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4731,
+        "min_angle_deg": 31.290226572253722,
+        "angle_p05_deg": 45.278128310828265,
+        "angle_median_deg": 59.8353060017204,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 103.13352390205816,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9892213481973026,
+        "quality_p05": 0.9341519924208472,
+        "quality_min": 0.7336482427306255,
+        "area_cv": 0.3375017934526586,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 231,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4731,
+        "min_angle_deg": 31.290226572253722,
+        "angle_p05_deg": 45.28384591852004,
+        "angle_median_deg": 59.8353060017204,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 103.13352390205814,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9892522447691707,
+        "quality_p05": 0.9341794625323534,
+        "quality_min": 0.7336482427306255,
+        "area_cv": 0.33750238272070654,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 231,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 231,
+      "predicted_edges": 26892,
+      "kept_predicted_edges": 6958,
+      "rejected_crossing_edges": 16807,
+      "rejected_pass_through_edges": 2896,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4731,
+      "triangular_faces": 4731,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 31.290226572253722,
+      "structured_min_angle_after_deg": 31.290226572253722,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 7189,
+      "selected_learned_edges": 6958,
+      "threshold_positive_edges": 7246,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000124",
+    "generation": {
+      "gmsh_size_scale": 1.1940000032779683,
+      "reference_node_count": 2044,
+      "gmsh_reference_node_count_difference": 0.014187866927592954,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2914,
+          "relative_difference": 0.42563600782778865
+        },
+        {
+          "size_scale": 1.1940000032779683,
+          "nodes": 2073,
+          "relative_difference": 0.014187866927592954
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3971,
+        "min_angle_deg": 32.19345474229376,
+        "angle_p05_deg": 46.09235395431607,
+        "angle_median_deg": 59.947594267530654,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 104.56745823537756,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9908429779367708,
+        "quality_p05": 0.9406469414075702,
+        "quality_min": 0.7250245725692015,
+        "area_cv": 0.2789145505979477,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 196,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3971,
+        "min_angle_deg": 32.19345474229376,
+        "angle_p05_deg": 46.09235395431607,
+        "angle_median_deg": 59.947594267530654,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 104.56745823537756,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9908429779367708,
+        "quality_p05": 0.9406469414075702,
+        "quality_min": 0.7250245725692015,
+        "area_cv": 0.2789145505979477,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 196,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 196,
+      "predicted_edges": 22634,
+      "kept_predicted_edges": 5847,
+      "rejected_crossing_edges": 13831,
+      "rejected_pass_through_edges": 2760,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 3971,
+      "triangular_faces": 3971,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 32.19345474229376,
+      "structured_min_angle_after_deg": 32.19345474229376,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 6043,
+      "selected_learned_edges": 5847,
+      "threshold_positive_edges": 6095,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000132",
+    "generation": {
+      "gmsh_size_scale": 1.0927726418535677,
+      "reference_node_count": 2565,
+      "gmsh_reference_node_count_difference": 0.008576998050682261,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 3063,
+          "relative_difference": 0.19415204678362574
+        },
+        {
+          "size_scale": 1.0927726418535677,
+          "nodes": 2587,
+          "relative_difference": 0.008576998050682261
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4983,
+        "min_angle_deg": 31.703844591507444,
+        "angle_p05_deg": 45.48291426237152,
+        "angle_median_deg": 59.63828117945971,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 108.55142712354973,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9881573186785221,
+        "quality_p05": 0.9320236161209778,
+        "quality_min": 0.7083433897782702,
+        "area_cv": 0.34901420246492215,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 242,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4983,
+        "min_angle_deg": 31.703844591507444,
+        "angle_p05_deg": 45.48291426237152,
+        "angle_median_deg": 59.63828117945971,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 108.55142712354973,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9881573186785221,
+        "quality_p05": 0.9320236161209778,
+        "quality_min": 0.7083433897782702,
+        "area_cv": 0.34901420246492215,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 242,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 242,
+      "predicted_edges": 28320,
+      "kept_predicted_edges": 7327,
+      "rejected_crossing_edges": 18102,
+      "rejected_pass_through_edges": 2649,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4983,
+      "triangular_faces": 4983,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 31.703844591507444,
+      "structured_min_angle_after_deg": 31.703844591507444,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 7569,
+      "selected_learned_edges": 7327,
+      "threshold_positive_edges": 7613,
+      "selected_below_threshold_edges": 1,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000133",
+    "generation": {
+      "gmsh_size_scale": 1.093524590296668,
+      "reference_node_count": 2569,
+      "gmsh_reference_node_count_difference": 0.006228104320747372,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 3072,
+          "relative_difference": 0.1957960295834955
+        },
+        {
+          "size_scale": 1.093524590296668,
+          "nodes": 2585,
+          "relative_difference": 0.006228104320747372
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4979,
+        "min_angle_deg": 32.158305553157845,
+        "angle_p05_deg": 45.47226805980787,
+        "angle_median_deg": 59.91567146108291,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 103.92057757433646,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9885501986520777,
+        "quality_p05": 0.9333476061453794,
+        "quality_min": 0.7477479622297626,
+        "area_cv": 0.3483213822707049,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 243,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4979,
+        "min_angle_deg": 32.158305553157845,
+        "angle_p05_deg": 45.47226805980787,
+        "angle_median_deg": 59.91567146108291,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 103.92057757433646,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9885501986520777,
+        "quality_p05": 0.9333476061453794,
+        "quality_min": 0.7477479622297626,
+        "area_cv": 0.34832138227070486,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 243,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 243,
+      "predicted_edges": 28199,
+      "kept_predicted_edges": 7320,
+      "rejected_crossing_edges": 17258,
+      "rejected_pass_through_edges": 3378,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4979,
+      "triangular_faces": 4979,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 32.158305553157845,
+      "structured_min_angle_after_deg": 32.158305553157845,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 7563,
+      "selected_learned_edges": 7320,
+      "threshold_positive_edges": 7884,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000138",
+    "generation": {
+      "gmsh_size_scale": 1.2189650143522124,
+      "reference_node_count": 1947,
+      "gmsh_reference_node_count_difference": 0.017976373908577297,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2893,
+          "relative_difference": 0.4858757062146893
+        },
+        {
+          "size_scale": 1.2189650143522124,
+          "nodes": 1982,
+          "relative_difference": 0.017976373908577297
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3792,
+        "min_angle_deg": 29.581695424862716,
+        "angle_p05_deg": 46.69823238486671,
+        "angle_median_deg": 59.9265882978614,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 110.50940540743998,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9906207406570564,
+        "quality_p05": 0.9471456383755472,
+        "quality_min": 0.6719311263315684,
+        "area_cv": 0.2638160189531438,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 187,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3792,
+        "min_angle_deg": 29.581695424862716,
+        "angle_p05_deg": 46.6982323848667,
+        "angle_median_deg": 59.9265882978614,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 107.7726145123242,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9906250258249772,
+        "quality_p05": 0.9471456383755472,
+        "quality_min": 0.7081730459074925,
+        "area_cv": 0.26381441050962,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 187,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 187,
+      "predicted_edges": 21752,
+      "kept_predicted_edges": 5586,
+      "rejected_crossing_edges": 13521,
+      "rejected_pass_through_edges": 2458,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 3792,
+      "triangular_faces": 3792,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 29.581695424862716,
+      "structured_min_angle_after_deg": 29.581695424862716,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 5773,
+      "selected_learned_edges": 5586,
+      "threshold_positive_edges": 6006,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000140",
+    "generation": {
+      "gmsh_size_scale": 1.2312147783829086,
+      "reference_node_count": 1888,
+      "gmsh_reference_node_count_difference": 0.019067796610169493,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2862,
+          "relative_difference": 0.5158898305084746
+        },
+        {
+          "size_scale": 1.2312147783829086,
+          "nodes": 1924,
+          "relative_difference": 0.019067796610169493
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3676,
+        "min_angle_deg": 30.63924803862477,
+        "angle_p05_deg": 46.757621375500584,
+        "angle_median_deg": 59.87143397804164,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 113.34926751488112,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9913392418971193,
+        "quality_p05": 0.9467747834209029,
+        "quality_min": 0.6584890441502743,
+        "area_cv": 0.2460794338596369,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 184,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3676,
+        "min_angle_deg": 30.63924803862477,
+        "angle_p05_deg": 46.757621375500584,
+        "angle_median_deg": 59.871433978041644,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 113.3492675148811,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9913392418971193,
+        "quality_p05": 0.9467747834209029,
+        "quality_min": 0.6584890441502743,
+        "area_cv": 0.2460794338596369,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 184,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 184,
+      "predicted_edges": 21024,
+      "kept_predicted_edges": 5415,
+      "rejected_crossing_edges": 13095,
+      "rejected_pass_through_edges": 2330,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 3676,
+      "triangular_faces": 3676,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 30.63924803862477,
+      "structured_min_angle_after_deg": 30.63924803862477,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 5599,
+      "selected_learned_edges": 5415,
+      "threshold_positive_edges": 5647,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000141",
+    "generation": {
+      "gmsh_size_scale": 1.1817301848643635,
+      "reference_node_count": 2106,
+      "gmsh_reference_node_count_difference": 0.011396011396011397,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2941,
+          "relative_difference": 0.39648622981956316
+        },
+        {
+          "size_scale": 1.1817301848643635,
+          "nodes": 2130,
+          "relative_difference": 0.011396011396011397
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4082,
+        "min_angle_deg": 33.20261136323897,
+        "angle_p05_deg": 46.2996590834327,
+        "angle_median_deg": 59.865017889744934,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 103.33726990406777,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9904311132327783,
+        "quality_p05": 0.9413526355803182,
+        "quality_min": 0.7408648093505794,
+        "area_cv": 0.2833269314278263,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 202,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4082,
+        "min_angle_deg": 33.20261136323897,
+        "angle_p05_deg": 46.2996590834327,
+        "angle_median_deg": 59.86501788974493,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 103.33726990406777,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9904311132327783,
+        "quality_p05": 0.9413526355803182,
+        "quality_min": 0.7408648093505794,
+        "area_cv": 0.2833269314278263,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 202,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 202,
+      "predicted_edges": 23301,
+      "kept_predicted_edges": 6009,
+      "rejected_crossing_edges": 14548,
+      "rejected_pass_through_edges": 2542,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4082,
+      "triangular_faces": 4082,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 33.20261136323897,
+      "structured_min_angle_after_deg": 33.20261136323897,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 6211,
+      "selected_learned_edges": 6009,
+      "threshold_positive_edges": 6391,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000154",
+    "generation": {
+      "gmsh_size_scale": 1.0921938996787863,
+      "reference_node_count": 2587,
+      "gmsh_reference_node_count_difference": 0.005411673753382296,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 3086,
+          "relative_difference": 0.1928875144955547
+        },
+        {
+          "size_scale": 1.0921938996787863,
+          "nodes": 2601,
+          "relative_difference": 0.005411673753382296
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 5010,
+        "min_angle_deg": 32.077236068068395,
+        "angle_p05_deg": 44.75033693386278,
+        "angle_median_deg": 59.81116803849158,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 107.25481757263381,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9884528450455926,
+        "quality_p05": 0.9308916526544653,
+        "quality_min": 0.7102728297606551,
+        "area_cv": 0.3540428513931992,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 244,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 1.1102230246251565e-16,
+      "quality": {
+        "triangles": 5010,
+        "min_angle_deg": 32.077236068068395,
+        "angle_p05_deg": 44.75033693386278,
+        "angle_median_deg": 59.81116803849158,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 107.25481757263381,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9884528450455926,
+        "quality_p05": 0.9308916526544653,
+        "quality_min": 0.7102728297606551,
+        "area_cv": 0.3540428513931992,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 244,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 244,
+      "predicted_edges": 28438,
+      "kept_predicted_edges": 7366,
+      "rejected_crossing_edges": 17718,
+      "rejected_pass_through_edges": 3110,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 5010,
+      "triangular_faces": 5010,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 32.077236068068395,
+      "structured_min_angle_after_deg": 32.077236068068395,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 7610,
+      "selected_learned_edges": 7366,
+      "threshold_positive_edges": 7768,
+      "selected_below_threshold_edges": 1,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 1.9999999999999998,
+      "domain_area": 2.0,
+      "relative_area_error": 1.1102230246251565e-16
+    }
+  },
+  {
+    "name": "crack_graph_000156",
+    "generation": {
+      "gmsh_size_scale": 1.084589783318624,
+      "reference_node_count": 2603,
+      "gmsh_reference_node_count_difference": 0.009988474836726853,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 3062,
+          "relative_difference": 0.17633499807913947
+        },
+        {
+          "size_scale": 1.084589783318624,
+          "nodes": 2629,
+          "relative_difference": 0.009988474836726853
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 5065,
+        "min_angle_deg": 27.016712560357714,
+        "angle_p05_deg": 44.95129197820392,
+        "angle_median_deg": 59.80033656279998,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 113.3145433613513,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9883680485651771,
+        "quality_p05": 0.9327680014231828,
+        "quality_min": 0.6477085326494453,
+        "area_cv": 0.35117731876154495,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 246,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 5065,
+        "min_angle_deg": 27.016712560357714,
+        "angle_p05_deg": 44.95129197820392,
+        "angle_median_deg": 59.80033656279998,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 113.3145433613513,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9883680485651771,
+        "quality_p05": 0.9327680014231828,
+        "quality_min": 0.6477085326494453,
+        "area_cv": 0.35117731876154495,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 246,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 246,
+      "predicted_edges": 28689,
+      "kept_predicted_edges": 7447,
+      "rejected_crossing_edges": 17831,
+      "rejected_pass_through_edges": 3165,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 5065,
+      "triangular_faces": 5065,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 27.016712560357714,
+      "structured_min_angle_after_deg": 27.016712560357714,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 7693,
+      "selected_learned_edges": 7447,
+      "threshold_positive_edges": 7744,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000168",
+    "generation": {
+      "gmsh_size_scale": 1.1696597145909358,
+      "reference_node_count": 2157,
+      "gmsh_reference_node_count_difference": 0.01808066759388039,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2951,
+          "relative_difference": 0.36810384793694945
+        },
+        {
+          "size_scale": 1.1696597145909358,
+          "nodes": 2196,
+          "relative_difference": 0.01808066759388039
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4213,
+        "min_angle_deg": 31.36489339126575,
+        "angle_p05_deg": 45.84516778871465,
+        "angle_median_deg": 59.867387630208974,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 113.12642917130847,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9895684992417811,
+        "quality_p05": 0.9383485838812827,
+        "quality_min": 0.6623672461397766,
+        "area_cv": 0.2963290468665364,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 206,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4213,
+        "min_angle_deg": 27.481751996520302,
+        "angle_p05_deg": 45.832009309571156,
+        "angle_median_deg": 59.867387630208974,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 117.44505383148208,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.989492673831383,
+        "quality_p05": 0.9382017521528555,
+        "quality_min": 0.6125948834555232,
+        "area_cv": 0.2963292117032224,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 206,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 206,
+      "predicted_edges": 23998,
+      "kept_predicted_edges": 6202,
+      "rejected_crossing_edges": 15024,
+      "rejected_pass_through_edges": 2566,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4213,
+      "triangular_faces": 4213,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 27.4817519965203,
+      "structured_min_angle_after_deg": 27.4817519965203,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 6408,
+      "selected_learned_edges": 6202,
+      "threshold_positive_edges": 6589,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000175",
+    "generation": {
+      "gmsh_size_scale": 1.1561268154848525,
+      "reference_node_count": 2225,
+      "gmsh_reference_node_count_difference": 0.005842696629213483,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2974,
+          "relative_difference": 0.33662921348314606
+        },
+        {
+          "size_scale": 1.1561268154848525,
+          "nodes": 2238,
+          "relative_difference": 0.005842696629213483
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4295,
+        "min_angle_deg": 30.13823598230312,
+        "angle_p05_deg": 46.37566210072043,
+        "angle_median_deg": 59.94011997510874,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 102.74351860921405,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.990493196092297,
+        "quality_p05": 0.9406923251258682,
+        "quality_min": 0.7530660872320093,
+        "area_cv": 0.29990954289283533,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 211,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4295,
+        "min_angle_deg": 30.13823598230312,
+        "angle_p05_deg": 46.37566210072043,
+        "angle_median_deg": 59.94011997510874,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 102.74351860921406,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.990493196092297,
+        "quality_p05": 0.9406923251258682,
+        "quality_min": 0.7530660872320093,
+        "area_cv": 0.29990954289283533,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 211,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 211,
+      "predicted_edges": 24437,
+      "kept_predicted_edges": 6321,
+      "rejected_crossing_edges": 15045,
+      "rejected_pass_through_edges": 2860,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4295,
+      "triangular_faces": 4295,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 30.13823598230312,
+      "structured_min_angle_after_deg": 30.13823598230312,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 6532,
+      "selected_learned_edges": 6321,
+      "threshold_positive_edges": 6667,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000176",
+    "generation": {
+      "gmsh_size_scale": 1.1737523037157267,
+      "reference_node_count": 2134,
+      "gmsh_reference_node_count_difference": 0.01218369259606373,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2940,
+          "relative_difference": 0.3776944704779756
+        },
+        {
+          "size_scale": 1.1737523037157267,
+          "nodes": 2160,
+          "relative_difference": 0.01218369259606373
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4141,
+        "min_angle_deg": 31.595674119329818,
+        "angle_p05_deg": 46.858741091483004,
+        "angle_median_deg": 59.87809142908017,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 108.33565691910403,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9907747092545383,
+        "quality_p05": 0.9452320139249675,
+        "quality_min": 0.7053270580321441,
+        "area_cv": 0.28583516036588225,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 204,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4141,
+        "min_angle_deg": 31.595674119329818,
+        "angle_p05_deg": 46.858741091483004,
+        "angle_median_deg": 59.87809142908017,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 108.33565691910403,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9907747092545383,
+        "quality_p05": 0.9452320139249675,
+        "quality_min": 0.7053270580321441,
+        "area_cv": 0.2858351603658822,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 204,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 204,
+      "predicted_edges": 23656,
+      "kept_predicted_edges": 6096,
+      "rejected_crossing_edges": 14822,
+      "rejected_pass_through_edges": 2534,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4141,
+      "triangular_faces": 4141,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 31.595674119329818,
+      "structured_min_angle_after_deg": 31.595674119329818,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 6300,
+      "selected_learned_edges": 6096,
+      "threshold_positive_edges": 6503,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000177",
+    "generation": {
+      "gmsh_size_scale": 1.2006787284042821,
+      "reference_node_count": 2013,
+      "gmsh_reference_node_count_difference": 0.012419274714356682,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2902,
+          "relative_difference": 0.4416294088425236
+        },
+        {
+          "size_scale": 1.2006787284042821,
+          "nodes": 2038,
+          "relative_difference": 0.012419274714356682
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3902,
+        "min_angle_deg": 32.762823791468485,
+        "angle_p05_deg": 46.50883230964252,
+        "angle_median_deg": 59.91366059043277,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 104.7333200452987,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9909396588872951,
+        "quality_p05": 0.9430791589953066,
+        "quality_min": 0.7290705205240371,
+        "area_cv": 0.2671493604749232,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 192,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3902,
+        "min_angle_deg": 32.762823791468485,
+        "angle_p05_deg": 46.50883230964252,
+        "angle_median_deg": 59.91366059043277,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 104.73332004529867,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9909396588872951,
+        "quality_p05": 0.9430791589953066,
+        "quality_min": 0.7290705205240371,
+        "area_cv": 0.2671493604749232,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 192,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 192,
+      "predicted_edges": 22330,
+      "kept_predicted_edges": 5747,
+      "rejected_crossing_edges": 13851,
+      "rejected_pass_through_edges": 2540,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 3902,
+      "triangular_faces": 3902,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 32.762823791468485,
+      "structured_min_angle_after_deg": 32.762823791468485,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 5939,
+      "selected_learned_edges": 5747,
+      "threshold_positive_edges": 6107,
+      "selected_below_threshold_edges": 1,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000178",
+    "generation": {
+      "gmsh_size_scale": 1.0807362857837992,
+      "reference_node_count": 2643,
+      "gmsh_reference_node_count_difference": 0.0011350737797956867,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 3087,
+          "relative_difference": 0.16799091940976163
+        },
+        {
+          "size_scale": 1.0807362857837992,
+          "nodes": 2646,
+          "relative_difference": 0.0011350737797956867
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 5099,
+        "min_angle_deg": 30.016857599709823,
+        "angle_p05_deg": 45.28541635084627,
+        "angle_median_deg": 59.851737200389046,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 110.8212972505074,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9888052815342744,
+        "quality_p05": 0.9328954919516569,
+        "quality_min": 0.6830320325591616,
+        "area_cv": 0.3512700815335178,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 248,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 5099,
+        "min_angle_deg": 30.016857599709823,
+        "angle_p05_deg": 45.28541635084627,
+        "angle_median_deg": 59.851737200389046,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 110.8212972505074,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9888052815342744,
+        "quality_p05": 0.9328954919516569,
+        "quality_min": 0.6830320325591616,
+        "area_cv": 0.3512700815335178,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 248,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 248,
+      "predicted_edges": 28818,
+      "kept_predicted_edges": 7496,
+      "rejected_crossing_edges": 17766,
+      "rejected_pass_through_edges": 3308,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 5099,
+      "triangular_faces": 5099,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 30.016857599709823,
+      "structured_min_angle_after_deg": 30.016857599709823,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 7744,
+      "selected_learned_edges": 7496,
+      "threshold_positive_edges": 7911,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000181",
+    "generation": {
+      "gmsh_size_scale": 1.2205847205418991,
+      "reference_node_count": 1966,
+      "gmsh_reference_node_count_difference": 0.005595116988809766,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2929,
+          "relative_difference": 0.4898270600203459
+        },
+        {
+          "size_scale": 1.2205847205418991,
+          "nodes": 1977,
+          "relative_difference": 0.005595116988809766
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3782,
+        "min_angle_deg": 30.59602153129499,
+        "angle_p05_deg": 46.548442033163106,
+        "angle_median_deg": 59.9218634545976,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 107.40009173631486,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9904364302425209,
+        "quality_p05": 0.9432036376191878,
+        "quality_min": 0.7147729547438018,
+        "area_cv": 0.26119315937088167,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 188,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 3782,
+        "min_angle_deg": 30.59602153129499,
+        "angle_p05_deg": 46.548442033163106,
+        "angle_median_deg": 59.9218634545976,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 107.40009173631485,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.990436430242521,
+        "quality_p05": 0.9432036376191878,
+        "quality_min": 0.7147729547438018,
+        "area_cv": 0.26119315937088167,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 188,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 188,
+      "predicted_edges": 21630,
+      "kept_predicted_edges": 5570,
+      "rejected_crossing_edges": 13320,
+      "rejected_pass_through_edges": 2552,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 3782,
+      "triangular_faces": 3782,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 30.59602153129499,
+      "structured_min_angle_after_deg": 30.59602153129499,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 5758,
+      "selected_learned_edges": 5570,
+      "threshold_positive_edges": 5871,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000182",
+    "generation": {
+      "gmsh_size_scale": 1.0859691351928897,
+      "reference_node_count": 2593,
+      "gmsh_reference_node_count_difference": 0.007713073659853451,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 3058,
+          "relative_difference": 0.17932896259159276
+        },
+        {
+          "size_scale": 1.0859691351928897,
+          "nodes": 2613,
+          "relative_difference": 0.007713073659853451
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 5033,
+        "min_angle_deg": 26.834969240796063,
+        "angle_p05_deg": 44.98927018602839,
+        "angle_median_deg": 59.86802098904504,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 115.62572047621222,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9884581197412419,
+        "quality_p05": 0.9312984954580148,
+        "quality_min": 0.6322928892684101,
+        "area_cv": 0.34332221000504226,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 243,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 5033,
+        "min_angle_deg": 26.834969240796063,
+        "angle_p05_deg": 44.966884074884845,
+        "angle_median_deg": 59.86802098904504,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 115.62572047621222,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9884464726025656,
+        "quality_p05": 0.9310022201855594,
+        "quality_min": 0.6322928892684101,
+        "area_cv": 0.34332183052462295,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 243,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 243,
+      "predicted_edges": 28548,
+      "kept_predicted_edges": 7402,
+      "rejected_crossing_edges": 17738,
+      "rejected_pass_through_edges": 3165,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 5033,
+      "triangular_faces": 5033,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 26.834969240796063,
+      "structured_min_angle_after_deg": 26.834969240796063,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 7645,
+      "selected_learned_edges": 7402,
+      "threshold_positive_edges": 7756,
+      "selected_below_threshold_edges": 0,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  },
+  {
+    "name": "crack_graph_000197",
+    "generation": {
+      "gmsh_size_scale": 1.1642044068059725,
+      "reference_node_count": 2178,
+      "gmsh_reference_node_count_difference": 0.011937557392102846,
+      "gmsh_size_trials": [
+        {
+          "size_scale": 1.0,
+          "nodes": 2952,
+          "relative_difference": 0.35537190082644626
+        },
+        {
+          "size_scale": 1.1642044068059725,
+          "nodes": 2204,
+          "relative_difference": 0.011937557392102846
+        }
+      ]
+    },
+    "gmsh_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4227,
+        "min_angle_deg": 31.4642010448383,
+        "angle_p05_deg": 46.37033570851589,
+        "angle_median_deg": 59.868211232876924,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 109.54000540972942,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9905712824249349,
+        "quality_p05": 0.9426110494746297,
+        "quality_min": 0.6963903601856695,
+        "area_cv": 0.2932239995083669,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 208,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "gnn_check": {
+      "valid": true,
+      "relative_area_error": 0.0,
+      "quality": {
+        "triangles": 4227,
+        "min_angle_deg": 31.4642010448383,
+        "angle_p05_deg": 46.37033570851589,
+        "angle_median_deg": 59.868211232876924,
+        "fraction_below_10deg": 0.0,
+        "fraction_below_20deg": 0.0,
+        "max_angle_deg": 109.54000540972942,
+        "fraction_above_150deg": 0.0,
+        "quality_mean": 0.9905712824249351,
+        "quality_p05": 0.9426110494746297,
+        "quality_min": 0.6963903601856695,
+        "area_cv": 0.29322399950836686,
+        "degenerate_triangles": 0
+      },
+      "topology": {
+        "components": 1,
+        "isolated_nodes": 0,
+        "nonmanifold_edges": 0,
+        "constraint_edges": 208,
+        "missing_constraint_edges": 0,
+        "duplicate_triangles": 0
+      }
+    },
+    "decoder": {
+      "mandatory_edges": 208,
+      "predicted_edges": 24039,
+      "kept_predicted_edges": 6222,
+      "rejected_crossing_edges": 14948,
+      "rejected_pass_through_edges": 2661,
+      "rejected_invalid_edges": 0,
+      "bounded_faces": 4227,
+      "triangular_faces": 4227,
+      "nontriangular_faces": 0,
+      "max_face_vertices": 3,
+      "rejected_nonempty_three_cycles": 0,
+      "rejected_degenerate_three_cycles": 0,
+      "face_extraction_empty_three_cycles": 1,
+      "structured_quality_replacements": 0,
+      "structured_quality_passes": 0,
+      "structured_quality_target_deg": 10.0,
+      "structured_quality_weight": 6.0,
+      "structured_min_angle_before_deg": 31.4642010448383,
+      "structured_min_angle_after_deg": 31.4642010448383,
+      "structured_gnn_log_probability_delta": 0.0,
+      "strict_gnn_recovery": true,
+      "structured_gnn_decoder": true,
+      "cdt_fallback_used": false,
+      "ear_clipping_used": false,
+      "selected_edges": 6430,
+      "selected_learned_edges": 6222,
+      "threshold_positive_edges": 6591,
+      "selected_below_threshold_edges": 1,
+      "unrepresented_selected_edges": 0,
+      "covered_area": 2.0,
+      "domain_area": 2.0,
+      "relative_area_error": 0.0
+    }
+  }
+]

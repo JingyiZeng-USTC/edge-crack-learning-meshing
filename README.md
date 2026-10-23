@@ -18,7 +18,7 @@ This repository couples a learned absolute mesh-size field, adaptive Poisson sam
 - `module43_coordinate_fcnn_sm/`: compatibility utilities used for result export and comparison by the active solver.
 - `datasets/module30_single_straight_v1/`: 200 reference meshes, labels and the original 120/40/40 split.
 - `module30_checkpoints/` and `gnn/artifacts/`: pretrained size and connectivity models.
-- `evidence/`: archived numerical results, benchmark records and selected mesh/field outputs.
+- `evidence/`: archived per-case summary metrics and benchmark records.
 - `docs/`: data definitions, reproduction map and release status.
 - `CITATION.cff`: software citation metadata.
 - `MANIFEST_SHA256.json`: file integrity inventory.
@@ -65,9 +65,8 @@ The fixed-node comparison freezes Gmsh's final nodes, supplies identical coordin
 
 ## Citation and access
 
-Use the authors, title and repository URL in `CITATION.cff`. The manuscript has no publication DOI recorded here. An archival DOI has not been assigned. The repository does not claim journal acceptance.
+Use the authors, title and repository URL in `CITATION.cff`. An archival DOI can be added to this metadata when a versioned deposit is available.
 
 ## Licenses
 
 Author-owned source code is licensed under MIT (`LICENSE`). Author-owned datasets, pretrained model parameters and archived numerical results are licensed under CC BY 4.0 (`LICENSE-DATA.md`). Third-party packages and third-party materials retain their own licenses. See `THIRD_PARTY_NOTICES.md`.
-

@@ -1,0 +1,45 @@
+{
+  "format": "quality20-12-straight-4-curved-v1",
+  "requested_cases": 16,
+  "completed_cases": 16,
+  "accepted_cases": 16,
+  "failed_cases": 0,
+  "all_accepted": true,
+  "straight": {
+    "cases": 12,
+    "all_accepted": true,
+    "worst_min_angle_deg": 20.008266789825456,
+    "worst_min_angle_case": "unseen_left_mid_medium_pos11",
+    "mean_case_min_angle_deg": 20.153817843009758,
+    "mean_decoder_min_angle_deg": 11.282613426697678,
+    "minimum_top_clearance_m": 0.4099999999999999,
+    "minimum_top_clearance_case": "unseen_right_high_long_neg38",
+    "maximum_relative_area_error": 1.1102230246251565e-16,
+    "mean_runtime_seconds": 77.72848277500005
+  },
+  "slight_curve": {
+    "cases": 4,
+    "all_accepted": true,
+    "worst_min_angle_deg": 20.170745472220844,
+    "worst_min_angle_case": "unseen_curve_left_mid_up",
+    "mean_case_min_angle_deg": 20.22557773258854,
+    "mean_decoder_min_angle_deg": 10.835576857730368,
+    "minimum_top_clearance_m": 0.44999999999999996,
+    "minimum_top_clearance_case": "unseen_curve_left_upper_down",
+    "maximum_relative_area_error": 1.1102230246251565e-16,
+    "mean_runtime_seconds": 79.85065372500003
+  },
+  "overall": {
+    "cases": 16,
+    "all_accepted": true,
+    "worst_min_angle_deg": 20.008266789825456,
+    "worst_min_angle_case": "unseen_left_mid_medium_pos11",
+    "mean_case_min_angle_deg": 20.171757815404455,
+    "mean_decoder_min_angle_deg": 11.17085428445585,
+    "minimum_top_clearance_m": 0.4099999999999999,
+    "minimum_top_clearance_case": "unseen_right_high_long_neg38",
+    "maximum_relative_area_error": 1.1102230246251565e-16,
+    "mean_runtime_seconds": 78.25902551250005
+  },
+  "elapsed_seconds": 1252.1608313999996
+}

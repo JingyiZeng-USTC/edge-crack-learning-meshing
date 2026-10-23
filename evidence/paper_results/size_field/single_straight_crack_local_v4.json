@@ -1,0 +1,29 @@
+{
+  "model_family": "single-crack-local-size-field-v4",
+  "runtime_uses_analytic_size_field": false,
+  "training_scope": "straight_single_cracks_only",
+  "best_epoch": 289,
+  "validation": {
+    "loss": 0.00031647007022283776,
+    "h_relative_l2": 0.047098248260262814,
+    "log_mae": 0.025031588116639067,
+    "refined_h_relative_l2": 0.11190468626785703,
+    "predicted_h_min": 0.004000000000000002,
+    "predicted_h_max": 0.029999999999999995,
+    "predicted_size_contrast": 7.499999999999996,
+    "raw_output_min": -0.009193360805511475,
+    "raw_output_max": 1.0063426494598389
+  },
+  "test": {
+    "loss": 0.0003101026678785193,
+    "h_relative_l2": 0.0470644170735721,
+    "log_mae": 0.02390079333929677,
+    "refined_h_relative_l2": 0.11650621869319686,
+    "predicted_h_min": 0.004000000000000002,
+    "predicted_h_max": 0.029999999999999995,
+    "predicted_size_contrast": 7.499999999999996,
+    "raw_output_min": -0.010403096675872803,
+    "raw_output_max": 1.0062463283538818
+  },
+  "checkpoint": "module30_checkpoints\\single_straight_crack_local_v4.pt"
+}

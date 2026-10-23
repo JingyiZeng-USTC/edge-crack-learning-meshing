@@ -1,0 +1,145 @@
+{
+  "format": "quality20-12-straight-4-curved-no-pcg-fcnn-sm-v1",
+  "loading_control": "top-line-load",
+  "top_line_load_n_per_m": 500000.0,
+  "training_uses_displacement_or_stress_labels": false,
+  "pcg_used_after_fcnn": false,
+  "epochs": 2000,
+  "unlabeled_load_samples": 2560,
+  "requested_cases": 16,
+  "successful_cases": 16,
+  "failed_cases": 0,
+  "straight": {
+    "cases": 12,
+    "mean": {
+      "equilibrium_relative_l2": 0.022730976117766363,
+      "displacement_relative_l2": 0.006411275511198467,
+      "element_strain_relative_l2": 0.011169025689657438,
+      "element_stress_relative_l2": 0.011126987906922795,
+      "element_von_mises_relative_l2": 0.009722668003847053,
+      "strain_energy_relative_error": 0.014197007328673324,
+      "training_seconds": 14.954500391666746,
+      "inference_seconds": 0.0005317749999752172,
+      "speedup_vs_direct": 25.529635618145065
+    },
+    "maximum": {
+      "equilibrium_relative_l2": {
+        "value": 0.041729473410547696,
+        "case_name": "unseen_left_upper_long_neg24"
+      },
+      "displacement_relative_l2": {
+        "value": 0.011799863283959726,
+        "case_name": "unseen_left_low_short_neg31"
+      },
+      "element_strain_relative_l2": {
+        "value": 0.01800254856533357,
+        "case_name": "unseen_left_upper_medium_neg36"
+      },
+      "element_stress_relative_l2": {
+        "value": 0.017463572636854184,
+        "case_name": "unseen_left_upper_medium_neg36"
+      },
+      "element_von_mises_relative_l2": {
+        "value": 0.01640815919138802,
+        "case_name": "unseen_left_upper_medium_neg36"
+      },
+      "strain_energy_relative_error": {
+        "value": 0.02829230852987247,
+        "case_name": "unseen_left_upper_medium_neg36"
+      }
+    },
+    "all_displacement_errors_below_1_percent": false,
+    "all_stress_errors_below_1_percent": false,
+    "all_von_mises_errors_below_1_percent": false,
+    "all_primary_field_errors_below_2_percent": true
+  },
+  "slight_curve": {
+    "cases": 4,
+    "mean": {
+      "equilibrium_relative_l2": 0.021253995391869968,
+      "displacement_relative_l2": 0.005322829202894652,
+      "element_strain_relative_l2": 0.010561579348038856,
+      "element_stress_relative_l2": 0.010649699962311892,
+      "element_von_mises_relative_l2": 0.009203776471387603,
+      "strain_energy_relative_error": 0.011983720247596107,
+      "training_seconds": 15.205670449999161,
+      "inference_seconds": 0.0006070750000617409,
+      "speedup_vs_direct": 22.810281287460423
+    },
+    "maximum": {
+      "equilibrium_relative_l2": {
+        "value": 0.026343803394607478,
+        "case_name": "unseen_curve_left_mid_up"
+      },
+      "displacement_relative_l2": {
+        "value": 0.007791452199479679,
+        "case_name": "unseen_curve_left_mid_up"
+      },
+      "element_strain_relative_l2": {
+        "value": 0.012897931467601171,
+        "case_name": "unseen_curve_left_mid_up"
+      },
+      "element_stress_relative_l2": {
+        "value": 0.012960993377567676,
+        "case_name": "unseen_curve_left_mid_up"
+      },
+      "element_von_mises_relative_l2": {
+        "value": 0.012123567849190385,
+        "case_name": "unseen_curve_left_mid_up"
+      },
+      "strain_energy_relative_error": {
+        "value": 0.02350844564112997,
+        "case_name": "unseen_curve_left_mid_up"
+      }
+    },
+    "all_displacement_errors_below_1_percent": true,
+    "all_stress_errors_below_1_percent": false,
+    "all_von_mises_errors_below_1_percent": false,
+    "all_primary_field_errors_below_2_percent": true
+  },
+  "overall": {
+    "cases": 16,
+    "mean": {
+      "equilibrium_relative_l2": 0.022361730936292262,
+      "displacement_relative_l2": 0.006139163934122513,
+      "element_strain_relative_l2": 0.011017164104252792,
+      "element_stress_relative_l2": 0.01100766592077007,
+      "element_von_mises_relative_l2": 0.00959294512073219,
+      "strain_energy_relative_error": 0.01364368555840402,
+      "training_seconds": 15.01729290624985,
+      "inference_seconds": 0.0005505999999968481,
+      "speedup_vs_direct": 24.849797035473905
+    },
+    "maximum": {
+      "equilibrium_relative_l2": {
+        "value": 0.041729473410547696,
+        "case_name": "unseen_left_upper_long_neg24"
+      },
+      "displacement_relative_l2": {
+        "value": 0.011799863283959726,
+        "case_name": "unseen_left_low_short_neg31"
+      },
+      "element_strain_relative_l2": {
+        "value": 0.01800254856533357,
+        "case_name": "unseen_left_upper_medium_neg36"
+      },
+      "element_stress_relative_l2": {
+        "value": 0.017463572636854184,
+        "case_name": "unseen_left_upper_medium_neg36"
+      },
+      "element_von_mises_relative_l2": {
+        "value": 0.01640815919138802,
+        "case_name": "unseen_left_upper_medium_neg36"
+      },
+      "strain_energy_relative_error": {
+        "value": 0.02829230852987247,
+        "case_name": "unseen_left_upper_medium_neg36"
+      }
+    },
+    "all_displacement_errors_below_1_percent": false,
+    "all_stress_errors_below_1_percent": false,
+    "all_von_mises_errors_below_1_percent": false,
+    "all_primary_field_errors_below_2_percent": true
+  },
+  "elapsed_seconds": 297.87016589999985
+}

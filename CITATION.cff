@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite this software and supporting dataset when using the workflow."
+type: software
+title: "Learning-based adaptive meshing with graph neural network-based connectivity prediction for edge-crack stress analysis"
+authors:
+  - family-names: Zeng
+    given-names: Jingyi
+    affiliation: University of Science and Technology of China
+  - family-names: Wu
+    given-names: Guang
+    affiliation: Taize Turbine Technology Co.
+version: 0.1.0
+repository-code: "https://github.com/1330519885zjy-coder/edge-crack-learning-meshing"
+url: "https://github.com/1330519885zjy-coder/edge-crack-learning-meshing"
+license: MIT
+keywords:
+  - adaptive meshing
+  - graph neural networks
+  - edge cracks
+  - mesh size field
+  - finite elements
+  - physics-constrained neural networks
+abstract: >-
+  Code and supporting meshes for learned mesh sizing, adaptive node sampling,
+  GraphSAGE connectivity prediction, constraint-aware triangle recovery,
+  and mesh-specific neural displacement solution for two-dimensional edge cracks.

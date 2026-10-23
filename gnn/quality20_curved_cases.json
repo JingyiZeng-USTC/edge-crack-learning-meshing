@@ -1,0 +1,38 @@
+[
+  {
+    "case_name": "unseen_curve_left_mid_up",
+    "entry": [0.0, 0.62],
+    "chord_length": 0.28,
+    "chord_angle_deg": 8.0,
+    "curvature_amplitude": 0.025,
+    "segments": 8,
+    "seed": 76001
+  },
+  {
+    "case_name": "unseen_curve_right_high_down",
+    "entry": [1.0, 1.42],
+    "chord_length": 0.36,
+    "chord_angle_deg": 190.0,
+    "curvature_amplitude": -0.030,
+    "segments": 8,
+    "seed": 76002
+  },
+  {
+    "case_name": "unseen_curve_left_upper_down",
+    "entry": [0.0, 1.55],
+    "chord_length": 0.31,
+    "chord_angle_deg": -18.0,
+    "curvature_amplitude": 0.025,
+    "segments": 8,
+    "seed": 76003
+  },
+  {
+    "case_name": "unseen_curve_bottom_right_inward",
+    "entry": [0.72, 0.0],
+    "chord_length": 0.34,
+    "chord_angle_deg": 102.0,
+    "curvature_amplitude": -0.030,
+    "segments": 8,
+    "seed": 76004
+  }
+]
