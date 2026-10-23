@@ -10,8 +10,8 @@ authors:
     given-names: Guang
     affiliation: Taize Turbine Technology Co.
 version: 0.1.0
-repository-code: "https://github.com/1330519885zjy-coder/edge-crack-learning-meshing"
-url: "https://github.com/1330519885zjy-coder/edge-crack-learning-meshing"
+repository-code: "https://github.com/JingyiZeng-USTC/edge-crack-learning-meshing"
+url: "https://github.com/JingyiZeng-USTC/edge-crack-learning-meshing"
 license: MIT
 keywords:
   - adaptive meshing
