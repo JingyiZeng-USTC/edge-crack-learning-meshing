@@ -4,7 +4,7 @@ Research software and supporting data for **Learning-based adaptive meshing with
 
 Authors: Jingyi Zeng and Guang Wu.
 
-Repository: https://github.com/1330519885zjy-coder/edge-crack-learning-meshing
+Repository: https://github.com/JingyiZeng-USTC/edge-crack-learning-meshing
 
 This repository couples a learned absolute mesh-size field, adaptive Poisson sampling, Line Graph GraphSAGE connectivity prediction, constraint-aware mesh recovery, and a mesh-specific FCNN-SM displacement solver. Strain and stress follow from constant-strain triangular finite elements. Validation concerns two-dimensional, single, non-branching edge cracks under small-deformation linear elasticity, including straight and curved paths.
 
