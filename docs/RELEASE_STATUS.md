@@ -3,7 +3,7 @@
 This repository contains version 0.1.0 of `edge-crack-learning-meshing`.
 
 - Authors: Jingyi Zeng and Guang Wu.
-- Public source repository: https://github.com/1330519885zjy-coder/edge-crack-learning-meshing.
+- Public source repository: https://github.com/JingyiZeng-USTC/edge-crack-learning-meshing.
 - Author-owned source code: MIT license.
 - Author-owned datasets, model parameters and numerical results: CC BY 4.0.
 - No archive DOI has been assigned.
