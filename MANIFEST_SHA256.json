@@ -2,7 +2,7 @@
   "package": "edge-crack-learning-meshing",
   "version": "0.1.0",
   "prepared_date": "2026-10-23",
-  "remote_repository": "https://github.com/1330519885zjy-coder/edge-crack-learning-meshing",
+  "remote_repository": "https://github.com/JingyiZeng-USTC/edge-crack-learning-meshing",
   "archive_doi": null,
   "files": [
     {
@@ -27,8 +27,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1043,
-      "sha256": "ff48fb195481c48a91064824bbf4a906ec95fe79e5c23a06fc9315197cc64c07"
+      "bytes": 1035,
+      "sha256": "5a2a48db633d7556825196f520a49cc6a8d7c8f8a47450b41c823e5b789eef9a"
     },
     {
       "path": "crack_graph_geometry.py",
@@ -1052,8 +1052,8 @@
     },
     {
       "path": "docs/DATA_AVAILABILITY.md",
-      "bytes": 592,
-      "sha256": "b511024d685981109daffc5c5ae0085f3b12ebd287180768d62e5d9f8993375f"
+      "bytes": 588,
+      "sha256": "f0c7b306542966c6100ebf5ceffcf9d9ac6cdd8a068e0bf20704b5e3a0397350"
     },
     {
       "path": "docs/DATA_DICTIONARY.md",
@@ -1072,8 +1072,8 @@
     },
     {
       "path": "docs/RELEASE_STATUS.md",
-      "bytes": 1157,
-      "sha256": "1d3984578bc51a2a856aa328fb7fb7f442c432d65f5fc88621baa308a68bd78f"
+      "bytes": 1153,
+      "sha256": "039027e05dc9e9a4da3e5b2149328b630803e59dd7ef1f0db07cd9a358c03b26"
     },
     {
       "path": "docs/REPRODUCIBILITY.md",
@@ -1697,8 +1697,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5703,
-      "sha256": "de30fced43fe0d77c00d8069987ed2dcb0ac94e22c8890c1b9434b9183dd9aaa"
+      "bytes": 5699,
+      "sha256": "5a04fa8190397d12b61ef083c049cdc578572a26d2c25c9bbb0c46c94d3f8f52"
     },
     {
       "path": "requirements-comparison.txt",
